@@ -1,29 +1,42 @@
 .container-inicio{
     background-color: #B2B2B2;
-    width: 90rem;
+    width: 71rem;
+    height: 11rem;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 2rem;
+    border-radius: 2rem 2rem 0rem 0rem;
 }
 
 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 5rem;
     margin: auto;
+    color: black;
 }
 
 .titulo {
-    
+    margin-left: 7rem;
 }
 
 .sub-titulo{
     margin: auto;
-    font-size: 20px;
+    font-size: 30px;
+    margin-top: -1%;
 }
 
 .img-mapa{
     position: relative;
-    width: 20rem;
-    left: 65rem;
-    bottom: 5rem;
+    width: 22rem;
+    left: 42rem;
+    bottom: 7rem;
+}
+
+.img-esta{
+    position: absolute;
+    width: 15rem;
+    left: 91rem;
+    bottom: 79rem;
 }
 
 .silueta{
@@ -31,6 +44,7 @@ h1{
     width: 100%;
     height: 1rem;
     margin-bottom: -1%;
+    margin-top: -6rem;
 }
 
 .main-nav{
@@ -40,6 +54,7 @@ h1{
     padding-left: 0;
     text-align: center;
     margin-top: 1%;
+    border-radius: 0rem 0rem 2rem 2rem;
 }
 
 .main-nav-items{
@@ -47,5 +62,14 @@ h1{
     display: inline-block;
     padding: 30px 80px;
     font-size: 25PX;
-    border-right: 1px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.container-info{
+
+}
+
+.container-item{
+    width: 800px;
+    height: 800px;
 }
