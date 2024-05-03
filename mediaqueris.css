@@ -1,0 +1,27 @@
+@media (max-width: 932px) {
+    .container-inicio{
+        width: 49.5rem;
+    }
+
+    .titulo{
+        margin-left: 11rem;
+    }
+
+    .img-mapa{
+        display: none;
+    }
+
+    .main-nav{
+        margin-top: 0.6rem;
+    }
+
+    .silueta{
+        margin-top: 2rem;
+    }
+
+    .main-nav-items{
+        display: block;
+        padding: 5px;
+        border-right: 2px solid #ffffff;
+    }
+}
