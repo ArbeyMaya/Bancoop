@@ -24,4 +24,36 @@
         padding: 5px;
         border-right: 2px solid #ffffff;
     }
+
+    .container-info{
+        width: 49rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 9rem;
+    }
+
+    .container-item{
+        width: 47.2rem;
+    }
+
+    .inp{
+        width: 30rem;
+    }
+
+    #ingresar{
+        width: 18rem;
+    }
+
+    .media{
+        width: 44rem;
+    }
+
+    .media-img{
+        margin-left: 18rem;
+    }
+
+    .item4{
+        display: none;
+    }
 }
+

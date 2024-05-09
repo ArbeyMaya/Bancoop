@@ -32,13 +32,6 @@ h1{
     bottom: 7rem;
 }
 
-.img-esta{
-    position: absolute;
-    width: 15rem;
-    left: 91rem;
-    bottom: 79rem;
-}
-
 .silueta{
     background-color: black;
     width: 100%;
@@ -65,11 +58,162 @@ h1{
     border-right: 2px solid #ffffff;
 }
 
-.container-info{
-
-}
 
 .container-item{
-    width: 800px;
-    height: 800px;
+    background-color: black;
+    width: 22.2rem;
+    height: 20rem;
+    padding: 0rem;
+    margin: 1rem;
+}
+
+.container-info{
+    width: 76rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-1{
+    background-color: #B2B2B2;
+    border-radius: 20px 20px 0 0;
+}
+
+.titulo-item1{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    margin: 0;
+    padding: 18px;
+    border-radius: 20px 20px 0 0;
+}
+
+.cuenta{
+    display: flex;
+    justify-content: space-around;
+    margin: 3px;
+    align-items: center;
+}
+
+.inp{
+    width: 14rem;
+    height: 25px;
+    text-align: center;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+#ingresar{
+    background-color: #F2A516;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+    width: 6rem;
+    height: 30px;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+
+.titulo-item2{
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    border-radius: 20px 0 0 0;
+}
+
+.titulo-item3{
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+    border-radius: 0 20px 0 0;
+}
+
+.titulo-item4{
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+}
+
+.titulo-item5{
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+}
+
+.item-5{
+    border-radius: 0 0 0 20px;
+}
+.item-6{
+    border-radius: 0 0 20px 0;
+}
+
+.tarjeta {
+    width: 16rem;
+    margin-left: 4rem;
+}
+
+.text-item2 {
+    text-align: justify;
+    width: 19rem;
+    margin-left: 23px;
+}
+
+.libros{
+    width: 8rem;
+    margin-left: 7rem;
+}
+
+.text-item3{
+    margin-left: 25px;
+    width: 19rem;
+    text-align: justify;
+}
+
+.llaves{
+    width: 13rem;
+    margin-left: 5rem;
+}
+
+.text-item5{
+    width: 21rem;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.hipoteca {
+    width: 10rem;
+    margin-left: 6rem;
+}
+
+.text-item6 {
+    width: 20rem;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+
+.items{
+    background: -webkit-linear-gradient(181deg, #fafafa,#bababa);background: linear-gradient(181deg, #fafafa,#bababa);
 }
