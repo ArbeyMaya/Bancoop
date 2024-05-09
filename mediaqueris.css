@@ -55,5 +55,9 @@
     .item4{
         display: none;
     }
+
+    .pie{
+        width: 48rem;
+    }
 }
 
